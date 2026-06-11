@@ -1,0 +1,9 @@
+Cloud computing means using computing resources (servers, storage, databases, networking, software, etc.) over the internet instead of owning and managing physical computers yourself.
+
+1.You don't build your own power plant.
+2.You use electricity when needed and pay for what you use.
+3.You don't buy expensive servers.
+4.You rent resources from cloud providers such as:
+   Amazon Web Services (AWS)
+   Microsoft Azure
+   Google Cloud
