@@ -18,16 +18,17 @@ An Internet Gateway allows resources in a public subnet to communicate with the 
 A Route Table contains rules that determine where network traffic is directed.
 
 Example Route:
--> Destination: 0.0.0.0/0
--> Target: Internet Gateway
+Destination: 0.0.0.0/0
+Target: Internet Gateway
 
 Simple VPC Structure
 
 Internet --> Internet Gateway --> VPC 10.0.0.0/16 --> Public Subnet 10.0.1.0/24 --> EC2 
 
 Summary
--> VPC provides network isolation in AWS.
--> Subnets divide the VPC into smaller networks.
--> Internet Gateway enables internet access.
--> Route Tables control traffic flow.
--> Public subnets can host internet-facing resources like web servers.
+
+1. VPC provides network isolation in AWS.
+2. Subnets divide the VPC into smaller networks.
+3. Internet Gateway enables internet access.
+4. Route Tables control traffic flow.
+5. Public subnets can host internet-facing resources like web servers.
